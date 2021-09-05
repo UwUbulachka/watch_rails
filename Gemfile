@@ -41,12 +41,11 @@ end
 
 group :test do
   gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  gem 'chromedriver-helper'
   gem 'json_spec'
   gem 'launchy' 
   gem 'rubocop', require: false
-  gem 'shoulda-matchers' 
+  gem 'shoulda-matchers'
+  gem 'webdrivers' 
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
